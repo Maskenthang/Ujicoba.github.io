@@ -1,0 +1,77 @@
+*,
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Javanese', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+ :root {
+     --bg-primary: rgb(70, 89, 255);
+     --bg-secondary: #eaeaea;
+     --txt-primary: #f7f7f7;
+     --txt-secondary: #222222
+ }
+     
+ }
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background-color: #aeaeae;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+}
+.card { 
+    width: 40%;
+    border: 2px solid white;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0,5);
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+.icons {
+    margin-top: 8px;
+    font-size: 24px;
+    color: red;
+}
+.tittle {
+    font-size: 2em;
+}
+.deskripsi {
+    margin-top: 8px;
+    font-size: 1,2em;
+}
+.btn {
+    margin-top: 8px;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    
+}
+.btn:hover {
+    background-color: orange;
+    color: red;
+    -ms-transform: rotateY(10deg);
+    transform: rotateY(10deg)
+}
+ @media screen and (max-width: 476px) {
+     .card {
+         width: 95%;
+     }
+ }
